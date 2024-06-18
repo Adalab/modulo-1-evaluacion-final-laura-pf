@@ -1,9 +1,9 @@
 //CREO RECORDAR QUE PARA IMPORTAR NO SE PONIA ./ PERO ME DA ERROR DE OTRA MANERA MIRAR BIEN podria ser porque en el index se llama a este archivo con ./ al principio tb?? comprobar mas adelante
 @import './core/variables';
 @import './core/reset'; 
-@import './layout/header';
-// @import '/layout/main';
-@import './layout/section';
+// @import '/layout/header';
+@import './layout/main';
+// @import '/layout/section';
 // @import '/layout/footer';
 
 
