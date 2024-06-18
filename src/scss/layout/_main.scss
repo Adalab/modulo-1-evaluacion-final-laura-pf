@@ -5,11 +5,18 @@
     flex-direction: column;
     justify-content: space-between; 
 
+    @media screen and (min-width: 768px) {
+        height: 300px;
+        margin: 40px 40px;
+        display: block;
+    
+    }
+
 }
     
     
 
-    .mainarticle__h2 {
+    .mainArticle__h2 {
         font-family: $font-body;
         font-size: 18px;
         font-weight: 500;
@@ -17,20 +24,25 @@
         margin-bottom: 10px;
     }
 
-    .mainarticle__h3 {
+    .mainArticle__h3 {
         font-family: $font-tittle;
         font-size: 28px;
         margin-bottom: 10px;
     }
 
-    .mainarticle__p {
+    .mainArticle__p {
         font-family: $font-body;
         font-size: 23px;
         line-height: 36px;
 
+        @media screen and (min-width: 768px) {
+            font-size: 20px;
+            line-height: 32px;
+        }
+
     }
     
-    .maindiv {
+    .mainDiv {
         width: 200px;
         padding: 10px;
         background-color: $font-color-white;
@@ -42,20 +54,30 @@
         border: solid 4px $green-color;
         margin-bottom: 30px;
 
+        @media screen and (min-width: 768px) {
+            width: 160px;
+            
+        }
+
         &__a {
         font-family: $font-body;
         color: $green-color;
         font-size: 25px;
         font-weight: bold;
-        
 
+        @media screen and (min-width: 768px) {
+
+            font-size:20px;
+
+          }
         }
-
-
-
-        
     }
-    // .maindiv__a {
-        
-    // }
+
+@media screen and (min-width: 768px) {
+        .mainArticle {
+           margin-bottom: 30px;
+        }
+    }
+    
+    
 

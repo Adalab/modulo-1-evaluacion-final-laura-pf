@@ -18,6 +18,8 @@
         }
     
         }
+    
+    // esta anidación de __link pertenece al último contenedor div del partial section class="section__link" donde va el enlace de empezar ahora
 
     &__link {
         text-align: center;
@@ -34,11 +36,16 @@
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
+                @media screen and (min-width: 768px) {
+                    padding: 10px 22px;
+                    font-size: 20px;
+             }
         }
 
-    }
+    }   
 
 }
+
 
 .products {
     display: grid;
@@ -46,6 +53,11 @@
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+
+        @media screen and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
     &__item {
         margin: 20px 0;
     
@@ -65,18 +77,6 @@
         }
     }
 
-    .arrow {
-        position:absolute;
-        background-color: aqua;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        &__img {
-            width: 50%;
-        }
-    }
 
 
 
