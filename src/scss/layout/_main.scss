@@ -1,7 +1,12 @@
 .main {
     background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 390px;
+    height: 447px;
+    &__article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
 }
