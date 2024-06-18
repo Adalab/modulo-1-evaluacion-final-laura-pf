@@ -31,17 +31,18 @@
     }
 
     .containerdiv {
-        width: 300px;
+        width: 320px;
         height: 300px;
         color: $font-color-white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 100px;
-        &__tittle1{
-           
+        margin-bottom: 80px;
+
+        &__tittle1{ 
             font-family: $font-tittle; 
+            //NO ME FUNCIONA EL ROBOTO SLAB MIRAR MAS TARDE QUE PASA
             font-weight: 500;
             line-height: 60px;
             font-size: 2.6rem;
@@ -53,8 +54,7 @@
             font-family: $font-body;  
             line-height: 30px; 
             font-weight: 400;
-            margin-bottom: 40px;
-
+            margin-bottom: 25px;
         }
 
         &__figure{
@@ -64,7 +64,8 @@
             border-radius: 100%;
             display: flex;
             align-items: center;
-            justify-content: center;  
+            justify-content: center; 
+             
             &-icon {
                 width: 25px;
                 padding-top: 5px;
