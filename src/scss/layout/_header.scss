@@ -6,6 +6,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 82.5%;
+    // display: flex;
+    // flex-direction: column;
+    //justify-content: space-between;
+    
  
     &__nav{
         width: 30px;
@@ -22,15 +26,12 @@
     }
 
     .container {
-        
         width: 100%;
-        height: 815px;
         display:flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         text-align: center;
-      
     }
 
     .containerdiv {
