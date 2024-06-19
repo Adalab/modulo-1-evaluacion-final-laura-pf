@@ -84,31 +84,44 @@
     }
 
     .containerDiv {
-        width: 312px;
+
+        width: 390px;
+    
         color: $font-color-white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         
+        @media screen and (min-width: 1200px) {
+            width: 600px;
+        }
+        
         &__tittle1{ 
+            
             font-family: $font-tittle; 
             //NO ME FUNCIONA EL ROBOTO SLAB MIRAR MAS TARDE QUE PASA
-            font-weight: 500;
+            font-weight: bold;
             line-height: 70px;
-            font-size: 2.6rem;
+            font-size: 45px;
             margin-bottom: 30px;  
-                @media screen and (min-width: 768px) {
-                font-size: 70px;
-                font-weight: bold;
-                line-height: 95px;
-                margin-bottom: 1px;
+            @media screen and (min-width: 768px) {
+            font-size: 70px;
+            font-weight: bold;
+            line-height: 95px;
+            margin-bottom: 1px;
 
+         }
+
+            @media screen and (min-width: 1200px) {
+                font-size: 60px;
+                line-height: 85px;
             }
         }
 
         &__p1 {
-            font-size: 1.3rem; 
+            width: 300px;
+            font-size: 19px; 
             font-family: $font-body;  
             line-height: 30px; 
             font-weight: 400;
@@ -118,12 +131,13 @@
                 font-size: 25px;
                 font-weight: 300;
             }
+
+            @media screen and (min-width: 1200px) {
+                margin-bottom: 40px;
+            }
         }
             
 
-            // @media screen and (min-width: 768px) {
-            //     width: 800px;
-            // }
 
         
 
